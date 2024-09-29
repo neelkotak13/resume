@@ -1,0 +1,114 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Neel Kotak} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(808) 753-9778 \\ Threat Detection and Response Analyst \\ San Antonio, TX} 
+\address{\href{mailto:neelkotak13@gmail.com}{neelkotak13@gmail.com} \\ \href{https://www.linkedin.com/in/neel-kotak/}{linkedin.com/in/neel-kotak/} \\ \href{https://github.com/neelkotak13}{github.com/neelkotak13}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Accomplished Cyber Warfare Officer with 4 years of experience in the United States Air Force and proven expertise in rogue systems investigations, advanced malicious cyber activity detection, and agile methodology-based hunts. Currently pursuing an MS in Cyber Security from Georgia Tech Institute of Technology, complementing practical experience with advanced academic knowledge. Highly skilled in  memory and disk forensics, programming languages like C/C++, Java, Python, and penetration testing. More recently experienced in Defensive Cyber, I have always had a knack for offensive cyber concepts, penetration testing, and reverse engineering/malware analysis seeking out practical experience from multiple college internships.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Cyber Security}, Georgia Institute of Technology \hfill {Expected 2024}\\
+Relevant Coursework: Advanced Malware Analysis, Network Security, Information Policy and Management, Secure Computing Systems, Applied Cryptography, 
+Information Security Lab: System and Network Defenses
+
+{\bf Bachelor of Computer Science}, University of Hawaii at Manoa \hfill {2015 - 2019}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\end{rSection}
+
+%	CERTIFICATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Certifications}
+{\bf  CompTIA Security+} - May 2020 \\
+{\bf  GCFA} - Aug 2021 \\
+{\bf  GCIH} - Jan 2023 \\
+{\bf  DoD 8570}: IAT Level III $|$ CSSP Analyst $|$ Incident Responder \\
+{\bf  TS/SCI with CI Poly} - Jul 2021 \\ 
+% --Projected Aug 2024: {\bf OCSP} 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
+Cybersecurity & Malicious Activity Hunting with ELK, Forensic Analysis, Penetration Testing
+\\
+Programming/Scripting & C/C++, Java, JavaScript, HTML/CSS, Python, Lisp, Bash, Assembly (x86)\\
+Incident Management & SIEM Status Tracking, Investigation management via DFIR IRIS \\
+Network Protocols & Arkime, Wireshark, Zeek, analysis of common protocols: TCP, UDP, IP DNS, etc...\\
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Cyber Protection Team Mission Element Lead (CPT MEL)} \hfill May 2020 - Present\\ U.S. Air Force \hfill \textit{San Antonio, TX}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Led 10+ member teams on rogue systems investigations for proactive threat hunting on multiple networks spanning over 3000+ endpoints and petabytes of network traffic, uncovering novel APTs Tactics, Techniques, and Procedures (TTPs) which deterred, disrupted, and degraded cyber actors
+    \item Extensive experience with memory and and disk based forensic artifacts, including use of volatility, FTK imager, and KAPE forensics for intensive analysis of disk and memory images
+    \item Directed and analyzed countless suspicious and malicious binaries via static and behavioral analysis, enhancing total industry knowledge of sophisticated threat actors
+    \item Wrote extensive python and powershell scripts to automate and search IOCs across large data sets for malicious activity, which amplified efficiency and number of findings across multiple missions
+    \item Wrote multiple technical reports that focused on threat actor findings, assessed network security posture, and recommended mitigation for network referencing NIST 800-53 guidance, bolstering network defenses and reducing adversary attack surface
+    \item Created, reviewed and validated detection rules team playbook for use in ELK stack to enhance detection of IOCs, which reduced indications of false positives 
+ \end{itemize}
+ 
+\textbf{Cyber Security Analyst} \hfill Dec 2019 - May 2020\\
+American Savings Bank \hfill \textit{Honolulu, HI}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Monitored SIEM, Firewall logs, IDS/IPS for anomalous events and suspicious activity, leading to the detection and mitigation of 20+ potential security threats monthly
+     \item Authored multiple incident response reports for events resulting in confirmed findings across enterprise of 50+ bank branches state-wide
+     \item Conducted weekly vulnerability scan of all bank workstations, servers, and ATMs, contacted server managers to fix patches via nessus/tenable, resulting status tracking via monthly vulnerability reports
+     \item Monitored email alerts for Data Loss Prevention (DLP), PII, and customer information
+ \end{itemize}
+
+\textbf{Engineering Researcher, Advanced Course in Engineering} \hfill May 2019 - Aug 2019\\
+Air Force Research Labs (AFRL) \hfill \textit{Rome, NY}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Completed rigorous research and graduate-level coursework in a wide breath of cybersecurity topics focused on Red Team Tactics.
+     \item Introduced to Reverse Engineering concepts: Sandbox tested and emulated network services to conduct dynamic behavioral analysis and used debuggers and disassemblers such as GDB, IDA/Ghidra for static analysis.
+     \item Tested of Network Penetration conceptions through use of open source tools Metasploit, Powershell Empire, Unicorn packer, and reverse shells.
+     \item Firewall evasion tactics focused on network baselining, covert Command and Control (C2) channels, packet encapsulation to bypass firewall rules.
+
+ \end{itemize}
+
+\textbf{Cyber Intern, Advanced Cyber Education} \hfill Jul 2018 - Aug 2018\\
+Air Force Institute of Technology (AFIT) \hfill \textit{Dayton, OH}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Classroom instruction component on cyberspace operations, cyber war exercises, and cyber officer development focused on the study of cyber and its challenges
+     \item Focused coursework on core cybersecurity concepts, followed by week-long practical capstone Cyber Network Defense Exercise testing Defense in Depth, Systems Analysis, Network Penetration, and Computer Network Defenses
+     \item Received Distinguished Graduate award, top 10 percent performer in program
+ \end{itemize}
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
