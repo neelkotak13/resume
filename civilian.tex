@@ -5,7 +5,7 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Neel Kotak} % Your name
 % You can merge both of these into a single line, if you do not have a website.
-\address{+1(808) 753-9778 \\ Threat Detection and Response Analyst \\ San Antonio, TX} 
+\address{+1 (808) 753-9778 \\ DevSecOps Software Engineer \\ Washington DC} 
 \address{\href{mailto:neelkotak13@gmail.com}{neelkotak13@gmail.com} \\ \href{https://www.linkedin.com/in/neel-kotak/}{linkedin.com/in/neel-kotak/} \\ \href{https://github.com/neelkotak13}{github.com/neelkotak13}}  %
 
 \begin{document}
@@ -16,7 +16,7 @@
 
 \begin{rSection}{OBJECTIVE}
 
-{Accomplished Cyber Warfare Officer with 4 years of experience in the United States Air Force and proven expertise in rogue systems investigations, advanced malicious cyber activity detection, and agile methodology-based hunts. Currently pursuing an MS in Cyber Security from Georgia Tech Institute of Technology, complementing practical experience with advanced academic knowledge. Highly skilled in  memory and disk forensics, programming languages like C/C++, Java, Python, and penetration testing. More recently experienced in Defensive Cyber and AWS Cloud Computing services. I have always had a knack for offensive cyber concepts, penetration testing, and reverse engineering/malware analysis seeking out practical experience from multiple college internships.}
+{Technical cybersecurity professional with expertise in consulting on complex and novel solutions for Amazon Web Services (AWS) Professional Services (ProServe) customers and 4+ years of experience in the United States Air Force. Deep technical experience with application security reviews and threat modeling, Continuous Integration/Continuous Deployment (CI/CD SAST) code scanning pipelines, AWS service implementation via Infrastructure-as-Code (IaC), advanced threat hunting, malware analysis, and forensics. Current specializations focus on building scalable security solutions using AWS services and IaC. Seeking technical cybersecurity roles, security engineering positions, and/or software development opportunities where I can leverage my deep technical expertise in threat detection/hunting, security automation, DevSecOps practices, and cloud security understanding. Experience in developing custom security tools, automating incident response workflows, and implementing security controls across enterprise environments.}
 
 
 \end{rSection}
@@ -26,26 +26,21 @@
 
 \begin{rSection}{Education}
 
-{\bf Master of Cyber Security}, Georgia Institute of Technology \hfill {Expected Spring 2025}\\
-Relevant Coursework: Advanced Malware Analysis, Network Security, Information Policy and Management, Secure Computing Systems, Applied Cryptography, 
-Information Security Lab: System and Network Defenses
+{\bf Master of Cyber Security}, Georgia Institute of Technology \hfill {2021 - 2025}\\
+Relevant Coursework: Advanced Malware Analysis, Network Security, Information Policy and Management, Secure Computing Systems, Applied Cryptography, Information Security Lab: System and Network Defenses
 
 {\bf Bachelor of Computer Science}, University of Hawaii at Manoa \hfill {2015 - 2019}
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
+
 \end{rSection}
 
 %	CERTIFICATION SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Certifications}
-{\bf  CompTIA Security+} - May 2020 \\
-{\bf  GCFA} - Aug 2021 \\
-{\bf  GCIH} - Jan 2023 \\
-{\bf  DoD 8570}: IAT Level III $|$ CSSP Analyst $|$ Incident Responder \\
-{\bf  TS/SCI with CI Poly} - Jul 2021 \\ 
-{\bf  AWS Certified Solutions Architect Associate (SAA)} - Oct 2024 
-% --Projected Aug 2024: {\bf OCSP} 
+{\bf CompTIA Security+} - May 2020 \\
+{\bf GCFA} - Aug 2021; {\bf GCIH} - Jan 2023 \\
+{\bf Certified Information Systems Security Professional (CISSP)} - Jan 2025 \\
+{\bf DoD 8570}: IAT Level III $|$ CSSP Analyst $|$ Incident Responder $|$ TS/SCI with Poly - Dec 2025 \\ 
+{\bf AWS Certified Solutions Architect Professional (SAP)} - Oct 2025 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -56,13 +51,28 @@ Information Security Lab: System and Network Defenses
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{3ex}} l }
 Cybersecurity & Malicious Activity Hunting with ELK, Forensic Analysis, Penetration Testing
 \\
-Programming/Scripting & C/C++, Java, JavaScript, HTML/CSS, Python, Lisp, Bash, Assembly (x86)\\
-Amazon Web Services & AWS EC2, Amazon Bedrock, AWS Lambda, Amazon S3, Amazon API Gateway, Boto3 \\
-Network Protocols & Arkime, Wireshark, Zeek, analysis of common protocols: TCP, UDP, IP DNS, etc...\\
+Programming/Scripting & C/C++, Java, JavaScript, HTML/CSS, Python, Terraform, AWS Cloud Development Kit (CDK) \\
+& Python/Typescript, CloudFormation, Bash, Assembly (x86), cdk\_nag, cfn\_nag, trivy, \\
+& semgrep, checkov, bandit, git-secrets\\
+Amazon Web Services & AWS EC2, Amazon Bedrock, AWS Lambda, Amazon S3, Amazon API Gateway, \\
+& Landing Zone Accelerator (LZA), SecurityHub, GuardDuty, Boto3 \\
+Network Protocols & Arkime, Wireshark, Zeek, analysis of common protocols: TCP, UDP, IP, DNS, etc...\\
 \end{tabular}\\
 \end{rSection}
 
 \begin{rSection}{EXPERIENCE}
+
+\textbf{AWS Professional Services Consultant} \hfill Dec 2024 - Present\\
+Amazon Web Services (AWS) \hfill \textit{Washington DC, Maryland, and Virginia Metropolitan Area (DMV)}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Led comprehensive AWS GuardDuty/SecurityHub workshop for 15+ customer security personnel, delivering hands-on training on EventBridge integration, automated remediation workflows, and suppression best practices, resulting in overwhelmingly positive feedback and enhanced customer security automation practices
+     \item Configured and deployed DISA STIG-hardened Palo Alto firewall infrastructure with AWS Gateway Load Balancers (GWLBs) across 5+ DoD workload accounts in air-gapped dev/test/prod environments via AWS LZA cloudformation IaC, enabling mission critical DoD cloud migration by delivering highly-scalable, highly-available (HA), resilient networking solution ready for customer workload onboarding and deployment
+     \item Deployed keycloak identity management solution via AWS ECS Fargate clusters across 5+ DoD workload accounts in air-gapped dev/test/prod environments, enabling PKI-based multi-factor authentication and compliance requirements for mission-critical applications through highly-scalable, resilient containerized architecture
+     \item Implemented and customized AWS SecurityHub Compliance Analyzer (SHCA) for DoD customer's air-gapped Amazon Dedicated Cloud (ADC) environment, modifying CDK typescript/python code to handle air-gapped region-specific DNS configurations and VPC endpoint limitations, enabling automated weekly/monthly NIST 800-53 compliance reporting and documentation uploads across dev/test/prod accounts
+     \item Conducted security reviews for 10+ ProServe projects using threat modeling (STRIDE, DREAD, PASTA) and automated SAST scanning (cdk\_nag, cfn\_nag, trivy, semgrep, checkov, bandit, git-secrets), identifying and resolving 2-5 critical/high vulnerabilities per project while creating standardized templates and leveraging AWS Automated Security Helper (ASH) scanner along with generative AI to achieve significant efficiency gains in security analysis and artifact generation
+     \item Designed and implemented complex, scalable, and secure AWS solutions tailored to customer needs
+ \end{itemize}
 
 \textbf{AWS Solutions Architect Skillbridge Fellow} \hfill Aug 2024 - Nov 2024\\ Amazon Web Services (AWS) \hfill \textit{Remote}
  \begin{itemize}
@@ -117,5 +127,9 @@ Air Force Institute of Technology (AFIT) \hfill \textit{Dayton, OH}
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
+\vspace{1em}
+\begin{center}
+PRE-PUBLICATION REVIEW CASE NUMBER: RES-2026-00414
+\end{center}
 
 \end{document}
